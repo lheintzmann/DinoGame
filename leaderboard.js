@@ -20,4 +20,8 @@ function displayLeaderboard() {
   }
 }
 
-
+function resetLeaderboard() {
+  sessionStorage.setItem(LEADERBOARD_KEY, JSON.stringify([]));
+    setupLeaderboard();
+    displayLeaderboard();
+}

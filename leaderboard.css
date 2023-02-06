@@ -42,7 +42,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 600px;
-  height: 450px;
+  height: 400px;
   overflow: hidden;
   background-color: #fff;
   border: 1px solid #333;
@@ -69,3 +69,19 @@ footer {
   color: var(--txt-primary);
 }
 
+#reset {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 40px;
+  background-color: #f00;
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}

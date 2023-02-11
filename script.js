@@ -210,7 +210,7 @@ function onJump(e) {
 /* ADD CACTUS */
 
 const CACTUS_SPEED = 0.05;
-const CACTUS_INTERVAL_MIN = 500;
+const CACTUS_INTERVAL_MIN = 800;
 const CACTUS_INTERVAL_MAX = 2000;
 
 let nextCactusTime;
@@ -271,3 +271,4 @@ function saveScore(score) {
     leaderboard = leaderboard.slice(0, LEADERBOARD_SIZE);
     sessionStorage.setItem(LEADERBOARD_KEY, JSON.stringify(leaderboard));
 }
+
